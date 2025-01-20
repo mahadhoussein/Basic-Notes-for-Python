@@ -1,0 +1,51 @@
+# Program Purpose: To practice lists in Python
+# Date started: 2023-05-22
+# In Python, a list is a data structure that allows you to store and organize multiple items in a single variable. Lists are mutable, which means you can modify them by adding, removing, or changing elements
+# Lists: Ordered and allows for duplication of elements
+
+# Practice 1:
+mylist = ["banana", "cherry", "apple"]
+print(mylist)
+
+# Practice 2: 
+# This code shows that lists can have muliple items/elements that are different from one another
+mylist2 = [5, True, "Redwan"]
+print(mylist2)
+
+# Practice 3: 
+# In Python, there are many methods for lists and one of them is the ".append" which adds an element into a list
+mylist2.append('lemon')
+print(mylist2)
+
+# Another list method is ".insert", which inserts a item based on location (i.e. the index) 
+mylist.insert(1, 'blueberry')
+print(mylist)
+
+# Another list method is ".pop", which removes an item from a list
+item = mylist.pop()
+print(item)
+
+# Another list method is ".remove", which removes an item from a list
+item = mylist.remove("cherry")
+print(mylist)
+
+# To add lists into one big list
+my_list3 = [1,2,3,4]
+my_list4 = [5,6,7,8]
+
+new_list = my_list3 + my_list4
+print(new_list)
+
+# To start index
+a = my_list3[2:4]
+print(a)
+# To reverse an list
+b = my_list4[::-1]
+print(b)
+
+# To copy a list in Python
+list_org = ['banana', 'cherry', 'apple']
+list_cpy = list_org.copy()
+
+print(list_cpy)
+print(list_org)
