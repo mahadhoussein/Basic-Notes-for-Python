@@ -1,0 +1,15 @@
+from collections import deque
+
+# Create a new deque
+my_deque = deque()
+
+# Add elements to the deque
+my_deque.append(1)         # Add at the right end
+my_deque.appendleft(2)     # Add at the left end
+
+# Remove elements from the deque
+item1 = my_deque.pop()     # Remove from the right end
+item2 = my_deque.popleft() # Remove from the left end
+
+# Print the deque
+print(my_deque)
