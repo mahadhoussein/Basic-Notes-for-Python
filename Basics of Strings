@@ -1,0 +1,35 @@
+# Strings: ordered, immutable, text representation
+my_string = "Hello World"
+print(my_string)
+
+# Making a substring; the substring is created using slicing notation [1:5], which indicates that characters from index 1 up to, but not including, index 5 will be included in the substring
+substring = my_string[1:5]
+print(substring)
+
+# Adding two strings into sentence
+greeting = "Hello"
+name = "Tom"
+sentence = greeting + " " + name
+print(sentence)
+
+# Making a simple loop that iterates over each character in the string greeting 
+greeting = "Hello"
+for x in greeting:
+	print(x)
+
+# Special Commands for Strings
+my_command = "Hello World"
+print(my_command.startswith('Hello'))
+print(my_command.endswith('World'))
+
+print(my_command.find('ll'))
+print(my_command.replace('World', 'Universe'))
+
+new_string = "How are you doing"
+my_list = new_string.split(",")
+print(my_list)
+
+# Use of the % operator for string formatting in Python. It allows you to insert the value of a variable into a string 
+var = 3
+naruto = "the variable is %d" % var
+print(naruto)
