@@ -1,0 +1,27 @@
+# To determine if there is an tuple
+mytuple = ('Max',)
+print(type(mytuple))
+
+# To Make an object an tuple
+mytuple2 = tuple(["Jack", 28, "Boston"])
+print(type(mytuple2))
+print(mytuple2)
+# To identify tuples by indexes
+item = mytuple2[2]
+print(item)
+# Else/If Statements to error-check tuples in a function
+if 'Tim' in mytuple2:
+	print('yes')
+else:
+	print('no')
+
+# To count number of times you encounter a letter in a word
+my_tuple3 = ('a','p','p','l','e')
+print(my_tuple3.count('p'))
+print(len(my_tuple3))
+print(my_tuple3.index('l'))
+
+# To add tuples into another
+a = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+b = a[2:5]
+print(b)
