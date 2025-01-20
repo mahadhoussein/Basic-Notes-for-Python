@@ -1,0 +1,19 @@
+# To make a dictionary
+mydict= {"name":"Max","age": 28,"city": "New York"}
+print(mydict)
+
+# To get an value out of an object in an dictionary
+value = mydict["name"]
+print(value)
+
+# To add object in mydict
+mydict["email"] = "max@xyz.com"
+print(mydict)
+
+# To delete an object
+del mydict["age"]
+print(mydict)
+
+# To check with if/else
+if "name" in mydict:
+	print(mydict["name"])
